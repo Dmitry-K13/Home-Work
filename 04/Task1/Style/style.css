@@ -1,0 +1,12 @@
+.container{
+    width: 1725px;
+    height: 1408px;
+    padding: 120px 96px;
+}
+.text1{
+    margin-top: 96px;
+}
+.text2{
+    margin-top: 64px;
+    line-height: 40px;
+}
