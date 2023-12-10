@@ -10,17 +10,30 @@ header{
 
 }
 .header-container{
-    width: 800px;
+    width: 960px;
     margin: 0 auto;
+    padding-left: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 334px;
 }
-.logo,
+.logo{
+    display: inline-flex;
+    padding-left: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 334px;
+}
 .social{
-    display: inline-block;
-    width: 800px;
+    display: flex;
+    width: 480px;
+    height: 27px;
+    padding: 2px 10px 0px 395px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 17px;
 }
-.social{
-    text-align: right;
-}
+
 .main-section{
     background: #FAC960;
     padding: 110px 0;
@@ -100,5 +113,8 @@ button{    display: inline-block;
     border-radius: 3px;
     border: 1px solid #758696;
     background: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 0.7;
     
 }
