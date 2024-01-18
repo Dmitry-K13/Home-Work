@@ -12,12 +12,10 @@ header{
 .header-container{
     width: 960px;
     margin: 0 auto;
-    font-size: 0;
 }
 .logo, .social{
     display: inline-block;
     width: 475px;
-    font-size: 14px;
 }
 .social{
     text-align: right;
@@ -78,22 +76,26 @@ button{    display: inline-block;
     text-align: center;
 }
 .section-share{
-    background: #FAC960;
-    padding: 110px 0;
     text-align: center;
-    color: rgba(0, 0, 0, 0.56);
+    background: #FAC960;
+    height: 313px;
+    padding-top: 58px;
+    
 }
 .color3{
     color: #8A6D2F;
     font-size: 37px;
+    font-style: normal;
     font-weight: 400;
     line-height: 36px;
+  
 }
 .color4{
     color: rgba(0, 0, 0, 0.40);
     font-size: 22px;
     font-weight: 400;
     line-height: 30px;
+    
 }
 .button2{
     display: inline-block;
@@ -105,5 +107,23 @@ button{    display: inline-block;
     text-decoration: none;
     font-size: 16px;
     line-height: 0.7;
-    
 }
+.social-bottom{
+    height: 240px;
+    background: #F2F2F2;
+    padding: 81px 0px 80px 0px;
+    text-align: center;
+ 
+}
+.logo2{
+    margin-bottom: 24px;
+}
+nav{
+    display: inline-block;
+}
+nav a{
+    margin-right: 22px;
+}
+/* nav a:last-child{
+    margin-right: 0;
+} */
