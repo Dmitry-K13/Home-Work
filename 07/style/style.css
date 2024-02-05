@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #C42129;
+}
+i{
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+}
+.wraper{
+    display: flex;
+    width: 91%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+header{
+    background-color: #FFF;
+}
+.header-wraper{
+    display: flex;
+    width: 91%;
+    padding: 25px 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+nav{
+    width: 45%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.8px;
+}
+nav a{
+    margin-right: 17%;
+    color: #000;
+}
+nav a:last-child{
+    margin-right: 0;
+}
+.user i{
+    margin-right: 20px;
+}
+.user i:last-child{
+    margin-right: 0;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.description, .image-block{
+    width: 50%;
+    padding-left: 12%;
+}
+h1{
+    color: #FFF;
+    margin: 0;
+    font-family: Poppins;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150px;
+    padding-top: 127px;
+    padding-bottom: 8px;
+}
+p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+    padding-bottom: 42px;
+}
+.button-row{
+    display: flex;
+    gap: 46px;
+    padding-bottom: 64px;
+}
+.shop{
+    width: 272px;
+    height: 52px;
+    background-color: #000;
+    color: #FFF;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 7px;
+    padding: 0;
+}
+.watch{
+    background-color: transparent;
+    border: none;
+}
+.tea-row{
+    display: flex;
+}
+.tea-item{
+    width: 14%;
+    border-radius: 7px;
+    border: 1px solid #FFF;
+    padding: 10px;
+    min-width: 100px;
+    margin-right: 2%;
+    text-align: center;
+}
+.tea-item :hover{
+    background-color: #FFF;
+    
+
+}
+.tea-item img{
+    width: 100%;
+}
+.image-block{
+    position: relative;
+    padding-top: 68px;
+}
+.red{
+    position: absolute;
+    right: 0;
+    top: 145px;
+    
+}
+.main-img{
+    position: relative;
+   z-index: 2;
+}
+@media screen and (max-width: 400px) {
+    .description, .image-block{
+        width: 100%;
+        padding: 0 auto;
+        text-align: center;
+    }
+    .tea-row, nav{
+        display: none;
+    }
+    h1{
+        font-size: 80px;
+    }
+    .wraper{
+        width: 100%;
+    }
+    
+}

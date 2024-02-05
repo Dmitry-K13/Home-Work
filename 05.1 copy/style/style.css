@@ -33,6 +33,9 @@ main{
     display: flex;
     justify-content: center;
 }
+.two{
+    /* width: 100%; */
+}
 .nav{
     display: flex;
     flex-direction: column;
